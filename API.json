@@ -1,0 +1,654 @@
+{
+    "3D:RF:09:7F:01": {
+        "Name": "R1",
+        "Protocolos": ["OSPF", "ST"],
+        "Status":true,
+        "VLANs": {
+            "VL1": {
+                "Ports": ["G0/1"],
+                "Plicies": ["ACL1"],
+                "ET": true,
+                "IP": "192,168.10.1",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:02": {
+        "Name": "R2",
+        "Protocolos": ["RIP", "ST"],
+        "Status":false,
+        "VLANs": {
+            "VL2": {
+                "Ports": ["G0/2"],
+                "Plicies": ["ACL2"],
+                "ET": false,
+                "IP": "192,168.10.2",
+                "SSH": false
+            }
+        }
+    },
+    "3D:RF:09:7F:03": {
+        "Name": "R3",
+        "Protocolos": ["OSPF", "EIGRP"],
+        "VLANs": {
+            "VL3": {
+                "Ports": ["F0/1"],
+                "Plicies": ["ACL3"],
+                "ET": true,
+                "IP": "192,168.10.3",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:04": {
+        "Name": "R4",
+        "Protocolos": ["BGP", "ST"],
+        "VLANs": {
+            "VL4": {
+                "Ports": ["F0/2"],
+                "Plicies": ["ACL4"],
+                "ET": false,
+                "IP": "192,168.10.4",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:05": {
+        "Name": "R5",
+        "Protocolos": ["OSPF", "RIP"],
+        "VLANs": {
+            "VL5": {
+                "Ports": ["G0/3"],
+                "Plicies": ["ACL5"],
+                "ET": true,
+                "IP": "192,168.10.5",
+                "SSH": false
+            }
+        }
+    },
+    "3D:RF:09:7F:06": {
+        "Name": "SW1",
+        "Protocolos": ["STP", "VTP"],
+        "VLANs": {
+            "VL6": {
+                "Ports": ["F0/3"],
+                "Plicies": ["ACL6"],
+                "ET": false,
+                "IP": "192,168.10.6",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:07": {
+        "Name": "SW2",
+        "Protocolos": ["STP", "RSTP"],
+        "VLANs": {
+            "VL7": {
+                "Ports": ["F0/4"],
+                "Plicies": ["ACL7"],
+                "ET": true,
+                "IP": "192,168.10.7",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:08": {
+        "Name": "SW3",
+        "Protocolos": ["VTP", "STP"],
+        "VLANs": {
+            "VL8": {
+                "Ports": ["F0/5"],
+                "Plicies": ["ACL8"],
+                "ET": false,
+                "IP": "192,168.10.8",
+                "SSH": false
+            }
+        }
+    },
+    "3D:RF:09:7F:09": {
+        "Name": "SW4",
+        "Protocolos": ["RSTP", "VTP"],
+        "VLANs": {
+            "VL9": {
+                "Ports": ["F0/6"],
+                "Plicies": ["ACL9"],
+                "ET": true,
+                "IP": "192,168.10.9",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:10": {
+        "Name": "SW5",
+        "Protocolos": ["STP", "OSPF"],
+        "VLANs": {
+            "VL10": {
+                "Ports": ["F0/7"],
+                "Plicies": ["ACL10"],
+                "ET": false,
+                "IP": "192,168.10.10",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:11": {
+        "Name": "R6",
+        "Protocolos": ["OSPF", "ST"],
+        "VLANs": {
+            "VL11": {
+                "Ports": ["G0/4"],
+                "Plicies": ["ACL11"],
+                "ET": true,
+                "IP": "192,168.10.11",
+                "SSH": false
+            }
+        }
+    },
+    "3D:RF:09:7F:12": {
+        "Name": "R7",
+        "Protocolos": ["EIGRP", "ST"],
+        "VLANs": {
+            "VL12": {
+                "Ports": ["G0/5"],
+                "Plicies": ["ACL12"],
+                "ET": false,
+                "IP": "192,168.10.12",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:13": {
+        "Name": "R8",
+        "Protocolos": ["RIP", "OSPF"],
+        "VLANs": {
+            "VL13": {
+                "Ports": ["G0/6"],
+                "Plicies": ["ACL13"],
+                "ET": true,
+                "IP": "192,168.10.13",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:14": {
+        "Name": "R9",
+        "Protocolos": ["BGP", "OSPF"],
+        "VLANs": {
+            "VL14": {
+                "Ports": ["G0/7"],
+                "Plicies": ["ACL14"],
+                "ET": false,
+                "IP": "192,168.10.14",
+                "SSH": false
+            }
+        }
+    },
+    "3D:RF:09:7F:15": {
+        "Name": "R10",
+        "Protocolos": ["EIGRP", "RIP"],
+        "VLANs": {
+            "VL15": {
+                "Ports": ["G0/8"],
+                "Plicies": ["ACL15"],
+                "ET": true,
+                "IP": "192,168.10.15",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:16": {
+        "Name": "SW6",
+        "Protocolos": ["STP", "VTP"],
+        "VLANs": {
+            "VL16": {
+                "Ports": ["F0/8"],
+                "Plicies": ["ACL16"],
+                "ET": false,
+                "IP": "192,168.10.16",
+                "SSH": false
+            }
+        }
+    },
+    "3D:RF:09:7F:17": {
+        "Name": "SW7",
+        "Protocolos": ["RSTP", "STP"],
+        "VLANs": {
+            "VL17": {
+                "Ports": ["F0/9"],
+                "Plicies": ["ACL17"],
+                "ET": true,
+                "IP": "192,168.10.17",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:18": {
+        "Name": "SW8",
+        "Protocolos": ["VTP", "RSTP"],
+        "VLANs": {
+            "VL18": {
+                "Ports": ["F0/10"],
+                "Plicies": ["ACL18"],
+                "ET": false,
+                "IP": "192,168.10.18",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:19": {
+        "Name": "SW9",
+        "Protocolos": ["STP", "OSPF"],
+        "VLANs": {
+            "VL19": {
+                "Ports": ["F0/11"],
+                "Plicies": ["ACL19"],
+                "ET": true,
+                "IP": "192,168.10.19",
+                "SSH": false
+            }
+        }
+    },
+    "3D:RF:09:7F:20": {
+        "Name": "SW10",
+        "Protocolos": ["RSTP", "VTP"],
+        "VLANs": {
+            "VL20": {
+                "Ports": ["F0/12"],
+                "Plicies": ["ACL20"],
+                "ET": false,
+                "IP": "192,168.10.20",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:21": {
+        "Name": "R11",
+        "Protocolos": ["OSPF", "ST"],
+        "VLANs": {
+            "VL21": {
+                "Ports": ["G0/9"],
+                "Plicies": ["ACL21"],
+                "ET": true,
+                "IP": "192,168.10.21",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:22": {
+        "Name": "R12",
+        "Protocolos": ["RIP", "ST"],
+        "VLANs": {
+            "VL22": {
+                "Ports": ["G0/10"],
+                "Plicies": ["ACL22"],
+                "ET": false,
+                "IP": "192,168.10.22",
+                "SSH": false
+            }
+        }
+    },
+    "3D:RF:09:7F:23": {
+        "Name": "R13",
+        "Protocolos": ["EIGRP", "OSPF"],
+        "VLANs": {
+            "VL23": {
+                "Ports": ["G0/11"],
+                "Plicies": ["ACL23"],
+                "ET": true,
+                "IP": "192,168.10.23",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:24": {
+        "Name": "R14",
+        "Protocolos": ["BGP", "ST"],
+        "VLANs": {
+            "VL24": {
+                "Ports": ["G0/12"],
+                "Plicies": ["ACL24"],
+                "ET": false,
+                "IP": "192,168.10.24",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:25": {
+        "Name": "R15",
+        "Protocolos": ["OSPF", "RIP"],
+        "VLANs": {
+            "VL25": {
+                "Ports": ["G0/13"],
+                "Plicies": ["ACL25"],
+                "ET": true,
+                "IP": "192,168.10.25",
+                "SSH": false
+            }
+        }
+    },
+    "3D:RF:09:7F:26": {
+        "Name": "SW11",
+        "Protocolos": ["STP", "VTP"],
+        "VLANs": {
+            "VL26": {
+                "Ports": ["F0/13"],
+                "Plicies": ["ACL26"],
+                "ET": false,
+                "IP": "192,168.10.26",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:27": {
+        "Name": "SW12",
+        "Protocolos": ["RSTP", "STP"],
+        "VLANs": {
+            "VL27": {
+                "Ports": ["F0/14"],
+                "Plicies": ["ACL27"],
+                "ET": true,
+                "IP": "192,168.10.27",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:28": {
+        "Name": "SW13",
+        "Protocolos": ["VTP", "STP"],
+        "VLANs": {
+            "VL28": {
+                "Ports": ["F0/15"],
+                "Plicies": ["ACL28"],
+                "ET": false,
+                "IP": "192,168.10.28",
+                "SSH": false
+            }
+        }
+    },
+    "3D:RF:09:7F:29": {
+        "Name": "SW14",
+        "Protocolos": ["RSTP", "VTP"],
+        "VLANs": {
+            "VL29": {
+                "Ports": ["F0/16"],
+                "Plicies": ["ACL29"],
+                "ET": true,
+                "IP": "192,168.10.29",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:30": {
+        "Name": "SW15",
+        "Protocolos": ["STP", "OSPF"],
+        "VLANs": {
+            "VL30": {
+                "Ports": ["F0/17"],
+                "Plicies": ["ACL30"],
+                "ET": false,
+                "IP": "192,168.10.30",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:31": {
+        "Name": "R16",
+        "Protocolos": ["OSPF", "ST"],
+        "VLANs": {
+            "VL31": {
+                "Ports": ["G0/14"],
+                "Plicies": ["ACL31"],
+                "ET": true,
+                "IP": "192,168.10.31",
+                "SSH": false
+            }
+        }
+    },
+    "3D:RF:09:7F:32": {
+        "Name": "R17",
+        "Protocolos": ["EIGRP", "ST"],
+        "VLANs": {
+            "VL32": {
+                "Ports": ["G0/15"],
+                "Plicies": ["ACL32"],
+                "ET": false,
+                "IP": "192,168.10.32",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:33": {
+        "Name": "R18",
+        "Protocolos": ["RIP", "OSPF"],
+        "VLANs": {
+            "VL33": {
+                "Ports": ["G0/16"],
+                "Plicies": ["ACL33"],
+                "ET": true,
+                "IP": "192,168.10.33",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:34": {
+        "Name": "R19",
+        "Protocolos": ["BGP", "OSPF"],
+        "VLANs": {
+            "VL34": {
+                "Ports": ["G0/17"],
+                "Plicies": ["ACL34"],
+                "ET": false,
+                "IP": "192,168.10.34",
+                "SSH": false
+            }
+        }
+    },
+    "3D:RF:09:7F:35": {
+        "Name": "R20",
+        "Protocolos": ["EIGRP", "RIP"],
+        "VLANs": {
+            "VL35": {
+                "Ports": ["G0/18"],
+                "Plicies": ["ACL35"],
+                "ET": true,
+                "IP": "192,168.10.35",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:36": {
+        "Name": "SW16",
+        "Protocolos": ["STP", "VTP"],
+        "VLANs": {
+            "VL36": {
+                "Ports": ["F0/18"],
+                "Plicies": ["ACL36"],
+                "ET": false,
+                "IP": "192,168.10.36",
+                "SSH": false
+            }
+        }
+    },
+    "3D:RF:09:7F:37": {
+        "Name": "SW17",
+        "Protocolos": ["RSTP", "STP"],
+        "VLANs": {
+            "VL37": {
+                "Ports": ["F0/19"],
+                "Plicies": ["ACL37"],
+                "ET": true,
+                "IP": "192,168.10.37",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:38": {
+        "Name": "SW18",
+        "Protocolos": ["VTP", "RSTP"],
+        "VLANs": {
+            "VL38": {
+                "Ports": ["F0/20"],
+                "Plicies": ["ACL38"],
+                "ET": false,
+                "IP": "192,168.10.38",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:39": {
+        "Name": "SW19",
+        "Protocolos": ["STP", "OSPF"],
+        "VLANs": {
+            "VL39": {
+                "Ports": ["F0/21"],
+                "Plicies": ["ACL39"],
+                "ET": true,
+                "IP": "192,168.10.39",
+                "SSH": false
+            }
+        }
+    },
+    "3D:RF:09:7F:40": {
+        "Name": "SW20",
+        "Protocolos": ["RSTP", "VTP"],
+        "VLANs": {
+            "VL40": {
+                "Ports": ["F0/22"],
+                "Plicies": ["ACL40"],
+                "ET": false,
+                "IP": "192,168.10.40",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:41": {
+        "Name": "R21",
+        "Protocolos": ["OSPF", "ST"],
+        "VLANs": {
+            "VL41": {
+                "Ports": ["G0/19"],
+                "Plicies": ["ACL41"],
+                "ET": true,
+                "IP": "192,168.10.41",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:42": {
+        "Name": "R22",
+        "Protocolos": ["RIP", "ST"],
+        "VLANs": {
+            "VL42": {
+                "Ports": ["G0/20"],
+                "Plicies": ["ACL42"],
+                "ET": false,
+                "IP": "192,168.10.42",
+                "SSH": false
+            }
+        }
+    },
+    "3D:RF:09:7F:43": {
+        "Name": "R23",
+        "Protocolos": ["EIGRP", "OSPF"],
+        "VLANs": {
+            "VL43": {
+                "Ports": ["G0/21"],
+                "Plicies": ["ACL43"],
+                "ET": true,
+                "IP": "192,168.10.43",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:44": {
+        "Name": "R24",
+        "Protocolos": ["BGP", "ST"],
+        "VLANs": {
+            "VL44": {
+                "Ports": ["G0/22"],
+                "Plicies": ["ACL44"],
+                "ET": false,
+                "IP": "192,168.10.44",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:45": {
+        "Name": "R25",
+        "Protocolos": ["OSPF", "RIP"],
+        "VLANs": {
+            "VL45": {
+                "Ports": ["G0/23"],
+                "Plicies": ["ACL45"],
+                "ET": true,
+                "IP": "192,168.10.45",
+                "SSH": false
+            }
+        }
+    },
+    "3D:RF:09:7F:46": {
+        "Name": "SW21",
+        "Protocolos": ["STP", "VTP"],
+        "VLANs": {
+            "VL46": {
+                "Ports": ["F0/23"],
+                "Plicies": ["ACL46"],
+                "ET": false,
+                "IP": "192,168.10.46",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:47": {
+        "Name": "SW22",
+        "Protocolos": ["RSTP", "STP"],
+        "VLANs": {
+            "VL47": {
+                "Ports": ["F0/24"],
+                "Plicies": ["ACL47"],
+                "ET": true,
+                "IP": "192,168.10.47",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:48": {
+        "Name": "SW23",
+        "Protocolos": ["VTP", "RSTP"],
+        "VLANs": {
+            "VL48": {
+                "Ports": ["G0/1"],
+                "Plicies": ["ACL48"],
+                "ET": false,
+                "IP": "192,168.10.48",
+                "SSH": false
+            }
+        }
+    },
+    "3D:RF:09:7F:49": {
+        "Name": "SW24",
+        "Protocolos": ["STP", "OSPF"],
+        "VLANs": {
+            "VL49": {
+                "Ports": ["G0/2"],
+                "Plicies": ["ACL49"],
+                "ET": true,
+                "IP": "192,168.10.49",
+                "SSH": true
+            }
+        }
+    },
+    "3D:RF:09:7F:50": {
+        "Name": "SW25",
+        "Protocolos": ["RSTP", "VTP"],
+        "VLANs": {
+            "VL50": {
+                "Ports": ["G0/3"],
+                "Plicies": ["ACL50"],
+                "ET": false,
+                "IP": "192,168.10.50",
+                "SSH": true
+            }
+        }
+    }
+}
